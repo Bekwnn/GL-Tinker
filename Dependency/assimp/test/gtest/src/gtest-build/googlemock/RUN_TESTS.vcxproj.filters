@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest-build\CMakeFiles\57c522e64c5a8c9bfbcfb81ce6c5919b\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5FD84D00-2C45-3A92-B903-692BE997F2B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

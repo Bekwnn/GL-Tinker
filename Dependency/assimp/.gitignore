@@ -10,7 +10,6 @@ lib/
 
 # Generated
 assimp.pc
-revision.h
 contrib/zlib/zconf.h
 contrib/zlib/zlib.pc
 
@@ -28,10 +27,6 @@ test/results
 
 # Python
 __pycache__
-*.log
-*.filters
-*.tlog
-Assimp.sdf
 test/gtest/tmp/gtest-gitupdate.cmake
 test/gtest/tmp/gtest-gitclone.cmake
 test/gtest/tmp/gtest-cfgcmd.txt.in

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\src\gtest_main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0CB587C6-0E5B-373F-859C-F1342A3B3103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

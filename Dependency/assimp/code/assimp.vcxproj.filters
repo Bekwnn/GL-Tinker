@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StepExporter.cpp">
+      <Filter>Step</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\3DSExporter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssbinExporter.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssbinLoader.cpp">
+      <Filter>ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssxmlExporter.cpp">
+      <Filter>ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaLoader.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaParser.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaExporter.cpp">
+      <Filter>COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IRRMeshLoader.cpp">
+      <Filter>IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IRRShared.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IRRLoader.cpp">
+      <Filter>IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OFFLoader.cpp">
+      <Filter>OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileMtlImporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileParser.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjExporter.cpp">
+      <Filter>OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreImporter.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreStructs.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreBinarySerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreXmlSerializer.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreMaterial.cpp">
+      <Filter>OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OpenGEXExporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OpenGEXImporter.cpp">
+      <Filter>OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PlyLoader.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PlyParser.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PlyExporter.cpp">
+      <Filter>PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderLoader.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderDNA.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderScene.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderModifier.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderBMesh.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderTessellator.cpp">
+      <Filter>BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCBoolean.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCOpenings.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STEPFileEncoding.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXImporter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXParser.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXConverter.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXDocument.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXProperties.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXMeshGeometry.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXMaterial.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXModel.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXAnimation.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXNodeAttribute.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXDeformer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXBinaryTokenizer.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXDocumentUtil.cpp">
+      <Filter>FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RawLoader.cpp">
+      <Filter>RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SIBImporter.cpp">
+      <Filter>SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TerragenLoader.cpp">
+      <Filter>TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\UnrealLoader.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileImporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileParser.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileExporter.cpp">
+      <Filter>X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFImporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFExporter.cpp">
+      <Filter>GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\D3MFImporter.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\D3MFOpcPackage.cpp">
+      <Filter>3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>openddl_parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ByteSwapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MemoryIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StreamWriter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StringUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Bitmap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XMLTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\StepExporter.h">
+      <Filter>Step</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\3DSExporter.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssbinExporter.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssbinLoader.h">
+      <Filter>ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\AssxmlExporter.h">
+      <Filter>ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaHelper.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaLoader.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaParser.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ColladaExporter.h">
+      <Filter>COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IRRMeshLoader.h">
+      <Filter>IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IRRShared.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IRRLoader.h">
+      <Filter>IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OFFLoader.h">
+      <Filter>OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileData.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileMtlImporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjFileParser.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjTools.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\ObjExporter.h">
+      <Filter>OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreImporter.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreStructs.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreParsingUtils.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreBinarySerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OgreXmlSerializer.h">
+      <Filter>OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OpenGEXExporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OpenGEXImporter.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\OpenGEXStructs.h">
+      <Filter>OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PlyLoader.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PlyParser.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\PlyExporter.h">
+      <Filter>PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderLoader.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderDNA.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderDNA.inl">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderScene.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderSceneGen.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderIntermediate.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderModifier.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderBMesh.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\BlenderTessellator.h">
+      <Filter>BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STEPFileEncoding.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXCompileConfig.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXImporter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXParser.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXTokenizer.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXImportSettings.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXConverter.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXUtil.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXDocument.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXProperties.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\FBXMeshGeometry.h">
+      <Filter>FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\RawLoader.h">
+      <Filter>RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SIBImporter.h">
+      <Filter>SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\TerragenLoader.h">
+      <Filter>TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\UnrealLoader.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileHelper.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileImporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileParser.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\XFileExporter.h">
+      <Filter>X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFAsset.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFAsset.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFAssetWriter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFAssetWriter.inl">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFImporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\glTFExporter.h">
+      <Filter>GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\D3MFImporter.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\D3MFOpcPackage.h">
+      <Filter>3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\IOStream.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBDF6ACE-512B-345E-B3AD-5624C0A47227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2D9BA9A4-26A1-389E-B372-11A82E2FE9C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{D330FE71-F4AD-30EC-BD24-EACC3E71429E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{382BA726-7D1C-3909-970C-158EBECF2A12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5AFD645E-FFB6-316C-A735-4870911E6E0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{6C077513-010F-3042-8533-C97D4F8DDF4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{D3541F51-F8C4-3F5C-BC52-1B589B6B24B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{2FA4E4B9-1DD6-3507-A7F3-AA5059FE8D86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSBIN">
+      <UniqueIdentifier>{D3C9A306-A6B5-3528-A950-3E805DC6BEF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASSXML">
+      <UniqueIdentifier>{54F53897-3AF2-3EB0-8DF3-E64F6D5B5AD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{0E595807-E324-3A8D-9028-0832C0637384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{D5688B1F-6D96-3B79-9393-29AEDF8E751F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COLLADA">
+      <UniqueIdentifier>{C723D0BD-4424-348B-A343-3381B2707896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{08EA5565-2368-3B83-B480-0D2A1A1480E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{C7F93384-F6DF-31EE-82EC-882B3D395FF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{11333C1A-1512-358F-973C-63F3E1E0B47D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRRMESH">
+      <UniqueIdentifier>{DFA228F7-07CB-3C49-A6A8-5556826027CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IRR">
+      <UniqueIdentifier>{B40EAD5C-BE92-383E-AD4F-35FA68C93596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{470C30F4-2387-372E-8452-1A2F475B9184}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{DE1FE0B1-CDF6-39B3-A9D6-935EA190669F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{75A84184-7DD0-3E17-958F-6C60340CD9B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{EA1F747D-3E7F-3068-9773-96260DBC4AE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{832965F2-E5AC-38F7-AF6A-896F21C44D95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{AF710E46-F45E-31D3-8612-B217E367AD06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{3869B4BF-4466-3769-BCF3-A4056A3ECCF4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{58C0E99C-481A-3B9D-8E71-4EE371A7379C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{369FF6FA-065C-36A0-AC01-94B96CEA2C4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{B398AC81-467A-3CA0-AA47-86F94B7E5CB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFF">
+      <UniqueIdentifier>{73043121-D816-34FC-B7F8-B6F642995AC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBJ">
+      <UniqueIdentifier>{2B27B29D-EBDD-32F2-B7BA-90C1B981C617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OGRE">
+      <UniqueIdentifier>{973B5BC6-05C9-36F4-B45C-7F450E2542A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPENGEX">
+      <UniqueIdentifier>{8888F409-4DD1-332D-923A-EFC9A1580F7F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PLY">
+      <UniqueIdentifier>{24C3D2D0-9B13-3337-B7D5-888076B3950F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{DCD4D5A4-57DA-3089-B11C-EF0557C976A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{F5BB4228-389E-391B-B0C3-226F9B437A1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLEND">
+      <UniqueIdentifier>{2868ECD6-1F98-382B-AB42-85A856EB1815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{54263AAA-ECA9-3F5E-A957-C63CBA2437C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{E514496E-CFE2-384F-AA2F-A2145DA3FD40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX">
+      <UniqueIdentifier>{29638670-9FE8-3216-B3DF-E4D2C82F2063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{2AD586D3-369D-3A20-9E8C-C2CB31BF1425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{8D041FE4-FC73-3BEE-840B-BDA12FCDACE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{1608A936-1D77-3D38-B903-561A482C7F6D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RAW">
+      <UniqueIdentifier>{F04A2ADB-1040-306C-B185-DD9E664AC04F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIB">
+      <UniqueIdentifier>{41828395-80B4-3F13-B08B-46AD8DF4E754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{12DA4BCD-46F0-30AB-899C-730939BD7870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{16440137-F524-3FC2-8758-32058654D705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TERRAGEN">
+      <UniqueIdentifier>{C1F4A7AA-9DF8-3D34-AD2F-516A915DBD60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{9385B8A8-719B-36F0-8EE0-8BC5A3D62163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="X">
+      <UniqueIdentifier>{E40E52B5-DDB3-309E-B889-F15AE4A07E3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLTF">
+      <UniqueIdentifier>{02AB8567-CD6D-340A-A15A-941D27C08709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3MF">
+      <UniqueIdentifier>{6B5CB020-3A1B-3D73-8939-C83396226020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Step">
+      <UniqueIdentifier>{CBBBA2FE-E613-37DF-98F9-ABFCF4B8D5BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{3593E975-E8FE-33F0-AC04-22B6BC0E4438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{0DB8B17E-94F2-3552-95F0-2FD6E70C190D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{7279E91D-05FC-34B3-B40B-4825481105DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{D62A8447-C326-3AD5-AD57-70E81F50FC53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{457F8C5F-AE8E-3B40-ACEE-A5AC62AC18C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{30B415A4-769B-38B6-9416-D34776CEB2E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="openddl_parser">
+      <UniqueIdentifier>{FA586CC9-6111-3112-8F70-7D1A0DFEBAC4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
