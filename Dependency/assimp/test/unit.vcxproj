@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{0886DC82-0E6F-3CBD-9B53-00394826851A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>unit</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">unit.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">unit.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\bin\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">unit.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\bin\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">unit.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">unit</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR=\"C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Debug\assimp-vc140-mt.lib;gtest.lib;..\lib\Debug\zlibstaticd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/lib/Debug/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/bin/Debug/unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR=\"C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\Release\assimp-vc140-mt.lib;gtest.lib;..\lib\Release\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/lib/Release/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/bin/Release/unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR=\"C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\MinSizeRel\assimp-vc140-mt.lib;gtest.lib;..\lib\MinSizeRel\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/lib/MinSizeRel/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/bin/MinSizeRel/unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;OPENDDL_NO_USE_CPP11;ASSIMP_BUILD_NO_C4D_IMPORTER;ASSIMP_TEST_MODELS_DIR=\"C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/models\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\contrib\zlib;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\googletest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\src\gtest\gtest\include;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\lib\RelWithDebInfo\assimp-vc140-mt.lib;gtest.lib;..\lib\RelWithDebInfo\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/ReleaseLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest/src/gtest-build/googlemock/gtest/DebugLibs/$(Configuration);C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp;C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/$(Configuration);/lib;/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/lib/RelWithDebInfo/unit.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/bin/RelWithDebInfo/unit.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp -BC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp --check-stamp-file C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\cmake-modules\AddGTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\RepositoryInfo.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp -BC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp --check-stamp-file C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\cmake-modules\AddGTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\RepositoryInfo.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp -BC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp --check-stamp-file C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\cmake-modules\AddGTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\RepositoryInfo.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp -BC:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp --check-stamp-file C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\cmake-modules\AddGTest.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\ExternalProject.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindGit.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.4\Modules\RepositoryInfo.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\gtest\tmp\gtest-cfgcmd.txt.in;C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\CCompilerTest.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\Main.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\code\Version.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\AssimpAPITest.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utBlendImportAreaLight.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utBlendImportMaterials.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utColladaExportCamera.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utColladaExportLight.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utFastAtof.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utFindDegenerates.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utFindInvalidData.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utFixInfacingNormals.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utGenNormals.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utImporter.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utImproveCacheLocality.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utIOSystem.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utIssues.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utJoinVertices.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utLimitBoneWeights.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utMaterialSystem.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utMatrix3x3.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utMatrix4x4.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utPretransformVertices.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utRemoveComments.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utRemoveComponent.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utRemoveRedundantMaterials.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utScenePreprocessor.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utSharedPPData.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utSortByPType.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utSplitLargeMeshes.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utTargetAnimation.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utTextureTransform.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utTriangulate.cpp"  />
+    <ClCompile Include="C:\Users\Bekwnn2\Documents\csc-directed-study-rendering\Project\Dependency\assimp\test\unit\utVertexTriangleAdjacency.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/ZERO_CHECK.vcxproj">
+      <Project>1D5958F4-A120-3858-96C1-DD065E27345E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/code/assimp.vcxproj">
+      <Project>2C4EE892-CC75-3D89-A274-2F1C68DC6E82</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/test/gtest.vcxproj">
+      <Project>08DFBDFC-368B-32B1-90B7-1B9E8EA1C84B</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Bekwnn2/Documents/csc-directed-study-rendering/Project/Dependency/assimp/contrib/zlib/zlibstatic.vcxproj">
+      <Project>FB03B30A-9DA7-3F87-BD42-37CEC501D3AC</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
